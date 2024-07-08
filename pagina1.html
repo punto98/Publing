@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Page Loader</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <li><a href="#" onclick="loadPage('pagina1.html')">Página 1</a></li>
+                <li><a href="#" onclick="loadPage('pagina2.html')">Página 2</a></li>
+                <li><a href="#" onclick="loadPage('pagina3.html')">Página 3</a></li>
+            </ul>
+        </nav>
+        <div id="content" class="content">
+            <p>Seleccione una página del menú para cargarla.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
